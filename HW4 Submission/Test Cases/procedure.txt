@@ -1,0 +1,16 @@
+/*	Simple program to test basic procedures.
+	Expected output: 13				*/
+
+const c = 8;
+var x;
+procedure p;
+	var y;
+	begin
+		y := c;
+		x := x + y;
+	end;
+begin
+	x := 5;
+	call p;
+	write x;
+end.

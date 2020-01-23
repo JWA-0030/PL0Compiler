@@ -1,0 +1,26 @@
+Source Program:
+const m = 7, n = 85;  
+var  i,x,y,z,q,r;  
+procedure mult; 
+  var a, b;  
+  begin 
+     a := x;  b := y; z := 0;   
+     while b > 0 do    
+     begin 
+        if odd x then z := z+a;       
+           a := 2*a; 
+           b := b/2;     
+     end   
+  end;
+
+begin
+  x := m;
+  y := n;
+  call mult;
+end.
+
+Symbolic lexeme list:
+constsym identsym m eqlsym numbersym 7 commasym identsym n eqlsym numbersym 85 semicolonsym varsym identsym i commasym identsym x commasym identsym y commasym identsym z commasym identsym q commasym identsym r semicolonsym procsym identsym mult semicolonsym varsym identsym a commasym identsym b semicolonsym beginsym identsym a becomesym identsym x semicolonsym identsym b becomesym identsym y semicolonsym identsym z becomesym numbersym 0 semicolonsym whilesym identsym b gtrsym numbersym 0 dosym beginsym ifsym identsym odd identsym x thensym identsym z becomesym identsym z plussym identsym a semicolonsym identsym a becomesym numbersym 2 multsym identsym a semicolonsym identsym b becomesym identsym b slashsym numbersym 2 semicolonsym endsym endsym semicolonsym beginsym identsym x becomesym identsym m semicolonsym identsym y becomesym identsym n semicolonsym callsym identsym mult semicolonsym endsym periodsym 
+
+Tokenized lexeme list:
+28 2 m 9 3 7 17 2 n 9 3 85 18 29 2 i 17 2 x 17 2 y 17 2 z 17 2 q 17 2 r 18 30 2 mult 18 29 2 a 17 2 b 18 21 2 a 20 2 x 18 2 b 20 2 y 18 2 z 20 3 0 18 25 2 b 13 3 0 26 21 23 2 odd 2 x 24 2 z 20 2 z 4 2 a 18 2 a 20 3 2 6 2 a 18 2 b 20 2 b 7 3 2 18 22 22 18 21 2 x 20 2 m 18 2 y 20 2 n 18 27 2 mult 18 22 19 

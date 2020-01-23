@@ -1,0 +1,15 @@
+/*	Simple program that prints the boolean evaluation of (x < 5)	
+	For example: 	If you enter 4, the output should be 1.
+				If you enter 5, the output should be 0.	*/
+
+var x, boo;
+begin
+	read x;
+	boo := 2;
+	if x < 5 then
+		boo := 1
+	else
+		boo := 0;
+	write boo;
+end.
+
